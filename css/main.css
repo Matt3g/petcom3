@@ -100,7 +100,7 @@ img {vertical-align: middle;}
     background-size: 100%; 
     /* max-height: 600px; */
     background-color: #fff;
-    background-color: rgba(255, 255, 255,0.4);
+    /*background-color: rgba(255, 255, 255,0.4);*/
 }
   /* Hide the images by default */
   .mySlides, .mySlides >div {
