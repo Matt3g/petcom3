@@ -220,6 +220,7 @@ img {vertical-align: middle;}
     background-color: #fff;
     display: flex;
     margin-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 2px 3px 10px #000;
 }
 .main-body .body-section .text{
