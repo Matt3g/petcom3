@@ -100,7 +100,7 @@ img {vertical-align: middle;}
     background-size: 100%; 
     /* max-height: 600px; */
     background-color: #fff;
-    /*background-color: rgba(255, 255, 255,0.4);*/
+    /* background-color: rgba(255, 255, 255,0.4); */
 }
   /* Hide the images by default */
   .mySlides, .mySlides >div {
@@ -291,6 +291,7 @@ img {vertical-align: middle;}
 }
 .about-us section p{
     /* font-weight: 500px; */
+    text-align: justify;
     font-size: 20px;
     font-weight: bold;
     margin: 50px 0px;
@@ -325,17 +326,21 @@ img {vertical-align: middle;}
     /* background-image: url('../images/truck.jpg') no-repeat right center; */
 }
 .locations .servicesbk{
-    background: url('../images/g.png') no-repeat center 300px;
+    /* background: url('../images/g.png') no-repeat center 300px; */
+    background: url('../images/store.jpeg') no-repeat center center;
     background-size: 100%;
 }
 .locations .lpgbk{
     background: url('../images/truck.jpg') no-repeat center center;  
-    background-size: 70%;
+    background-size: 60%;
 }
 .locations .loc_con h2{
     text-align: center;
     font-size: 20px;
-    color: #ED1B24;
+    /* background-color: #ED1B24; */
+    background-color: #FFCC33;
+    /* color: #ED1B24; */
+    color: #000;
     border-bottom: 1px solid #0356a4;
 }
 .locations section div{
@@ -347,37 +352,7 @@ img {vertical-align: middle;}
 .locations section div p{
     margin: 10px 0px;
 }
-/* .locations .loc_con section{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #FFCC33;
-    margin: 10px 0;
-} */
-/* .locations section >div{ */
-    /* padding: 20px 50px 20px 70px;
-    box-shadow: 2px 3px 15px #d9d9d9;
-    border: 1px solid #fff;
-    background-color: #fff; */
-    /* display: flex; */
 
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
-/* } */
-
-/* .locations section div div{
-    box-shadow: 2px 3px 15px #d9d9d9;
-    background-color: #f1c40d;
-    color: #fff;
-    margin: 50px 5px;
-    padding: 5px;
-}
-.locations section h3{
-    font-size: 35px;
-}
-.locations section p{
-    font-size: 20px;
-    margin: 10px 0px;
-} */
 /***************************************Locations*****************************************/
 
 /***************************************Products*****************************************/
@@ -456,11 +431,9 @@ img {vertical-align: middle;}
     align-items: center;
 }
 .prod-dis-tank div{
-    /* display: block;  */
     position: relative;
     width: 100%;
     text-align: center;
-    /* margin :50px 0px; */
 }
 .prod-dis-tank div img {
     width: 90%;
@@ -471,9 +444,7 @@ img {vertical-align: middle;}
     font-weight: bold;
     font-size: 20px;
     padding: 20px 10px;
-    /* color: #0356a4; */
     text-align: center;
-    /* background-color: #f9f9f9; */
     width: 100%;
     color: #FFCC33;
     background-color: #0356a4;
