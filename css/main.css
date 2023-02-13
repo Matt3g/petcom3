@@ -141,8 +141,9 @@ img {vertical-align: middle;}
   /* Caption text */
   .slideText {
     color: #0356a4;
+    /* padding-top: 10px; */
     position: absolute;
-    bottom: 50px;
+    top: 25px;
     width: 100%;
     text-align: center;
   }
@@ -248,6 +249,13 @@ img {vertical-align: middle;}
 .page-head{
     text-align: center;
     padding: 30px 0px;
+    background-color: #0356a4;
+    color: #fff;
+}
+.page-head p{
+    font-size: 18px;
+    text-align: center;
+    /* padding: 30px 0px; */
     background-color: #0356a4;
     color: #fff;
 }
